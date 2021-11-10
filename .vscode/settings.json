@@ -2,5 +2,22 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "eslint.packageManager": "yarn",
+  "conventionalCommits.scopes": [
+    "assets",
+    "comp",
+    "config",
+    "const",
+    "doc",
+    "eslint",
+    "gql",
+    "pages",
+    "release",
+    "styles",
+    "utils",
+    "deps"
+  ],
+  "cSpell.words": ["CNPJ", "hookform", "imask", "zipcode"]
 }
+
