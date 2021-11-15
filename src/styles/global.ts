@@ -1,21 +1,17 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
-  * {
+*,*::before,*::after,h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-
-  html {
-    font-size: 62.5%;
-  }
-
-  html, body, #__next {
-    height: 100%;
-  }
-
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  }
+}
+h1,h2,h3,h4,h5,h6{
+    display: inline-block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro',sans-serif;
+}
 `
