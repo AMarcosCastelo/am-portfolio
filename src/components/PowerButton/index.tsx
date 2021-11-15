@@ -1,9 +1,11 @@
+import { PowerBtn } from 'components/AllSvgs'
+
 import * as S from './styles'
 
 const PowerButton = () => (
-  <S.Wrapper>
-    <h1>PowerButton</h1>
-  </S.Wrapper>
+  <S.Power>
+    <PowerBtn width={30} height={30} fill="currentColor" />
+  </S.Power>
 )
 
 export default PowerButton

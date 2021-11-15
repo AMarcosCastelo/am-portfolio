@@ -1,14 +1,10 @@
-import { render, screen } from '@testing-library/react'
+import { renderWithTheme } from 'helpers'
 
 import PowerButton from '.'
 
 describe('<PowerButton />', () => {
   it('should render the heading', () => {
-    const { container } = render(<PowerButton />)
-
-    expect(
-      screen.getByRole('heading', { name: /PowerButton/i })
-    ).toBeInTheDocument()
+    const { container } = renderWithTheme(<PowerButton />)
 
     expect(container.firstChild).toMatchSnapshot()
   })

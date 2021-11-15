@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkPage /> should render the heading 1`] = `
+<main
+  class=""
+>
+  <h1>
+    WorkPage
+  </h1>
+</main>
+`;

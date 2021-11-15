@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background: ${({ theme }) => theme.body};
+  background: ${({ theme }) => theme.palette.background.default};
   width: 100vw;
   height: 100vh;
   overflow: hidden;

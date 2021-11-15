@@ -1,15 +1,31 @@
 export const lightTheme = {
-  body: '#FCF6F4',
-  text: '#000',
   fontFamily: "'Source Sans Pro,' sans-serif",
-  bodyRgba: '252, 246, 244',
-  textRgba: '0, 0, 0'
+
+  palette: {
+    text: {
+      main: '#000',
+      mainRgba: '0, 0, 0'
+    },
+
+    background: {
+      default: '#FCF6F4',
+      defaultRgba: '252, 246, 244'
+    }
+  }
 }
 
 export const darkTheme = {
-  body: '#000',
-  text: '#FCF6F4',
   fontFamily: "'Source Sans Pro,' sans-serif",
-  bodyRgba: '0, 0, 0',
-  textRgba: '252, 246, 244'
+
+  palette: {
+    text: {
+      main: '#FCF6F4',
+      mainRgba: '252, 246, 244'
+    },
+
+    background: {
+      default: '#000000',
+      defaultRgba: '0, 0, 0'
+    }
+  }
 }
