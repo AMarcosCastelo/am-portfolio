@@ -1,5 +1,9 @@
 export const lightTheme = {
-  fontFamily: "'Source Sans Pro,' sans-serif",
+  font: {
+    family_1: "'Source Sans Pro,' sans-serif",
+    family_2: "'Karla', sans-serif",
+    family_3: "'Pacifico', cursive"
+  },
 
   palette: {
     text: {
@@ -15,7 +19,11 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-  fontFamily: "'Source Sans Pro,' sans-serif",
+  font: {
+    family_1: "'Source Sans Pro,' sans-serif",
+    family_2: "'Karla', sans-serif",
+    family_3: "'Pacifico', cursive"
+  },
 
   palette: {
     text: {

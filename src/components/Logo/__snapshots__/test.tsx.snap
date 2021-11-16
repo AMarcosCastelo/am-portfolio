@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render the Logo 1`] = `
+.c0 {
+  display: inline-block;
+  color: #000;
+  font-family: 'Pacifico',cursive;
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  z-index: 3;
+}
+
+<h1
+  class="c0"
+>
+  AM
+</h1>
+`;
