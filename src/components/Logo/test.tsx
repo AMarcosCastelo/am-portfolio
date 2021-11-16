@@ -5,7 +5,7 @@ import Logo from '.'
 
 describe('<Logo />', () => {
   it('should render the Logo', () => {
-    const { container } = renderWithTheme(<Logo />)
+    const { container } = renderWithTheme(<Logo theme="light" />)
 
     expect(screen.getByRole('heading', { name: /AM/i })).toBeInTheDocument()
 

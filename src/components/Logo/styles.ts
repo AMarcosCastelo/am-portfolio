@@ -1,8 +1,17 @@
 import styled from 'styled-components'
 
-export const Logo = styled.h1`
+import { DARK_THEME, LIGHT_THEME } from 'styles'
+
+interface LogoProps {
+  themeType: 'dark' | 'light'
+}
+
+export const Logo = styled.h1<LogoProps>`
   display: inline-block;
-  color: ${({ theme }) => theme.palette.text.main};
+  color: ${({ themeType }) =>
+    themeType === 'dark'
+      ? DARK_THEME.palette.text.main
+      : LIGHT_THEME.palette.text.main};
   font-family: ${({ theme }) => theme.font.family_3};
 
   position: fixed;

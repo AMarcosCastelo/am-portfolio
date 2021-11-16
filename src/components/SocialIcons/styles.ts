@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { DARK_THEME, LIGHT_THEME } from 'styles'
+
 export const Icons = styled.div`
   display: flex;
   flex-direction: column;
@@ -16,8 +18,15 @@ export const Icons = styled.div`
   }
 `
 
-export const Line = styled.span`
+interface LineProps {
+  readonly themeType: 'dark' | 'light'
+}
+
+export const Line = styled.span<LineProps>`
   width: 2px;
   height: 8em;
-  background-color: ${({ theme }) => theme.palette.text.main};
+  background-color: ${({ themeType }) =>
+    themeType === 'dark'
+      ? DARK_THEME.palette.text.main
+      : LIGHT_THEME.palette.text.main};
 `

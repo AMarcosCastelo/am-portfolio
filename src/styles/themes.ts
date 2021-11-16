@@ -1,4 +1,4 @@
-export const lightTheme = {
+export const LIGHT_THEME = {
   font: {
     family_1: "'Source Sans Pro,' sans-serif",
     family_2: "'Karla', sans-serif",
@@ -18,7 +18,7 @@ export const lightTheme = {
   }
 }
 
-export const darkTheme = {
+export const DARK_THEME = {
   font: {
     family_1: "'Source Sans Pro,' sans-serif",
     family_2: "'Karla', sans-serif",

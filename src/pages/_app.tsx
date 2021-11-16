@@ -2,11 +2,11 @@ import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 import Head from 'next/head'
 
-import { lightTheme, darkTheme, GlobalStyles } from 'styles'
+import { LIGHT_THEME, DARK_THEME, GlobalStyles } from 'styles'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={LIGHT_THEME}>
       <Head>
         <title>Antonio Marcos Castelo</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
