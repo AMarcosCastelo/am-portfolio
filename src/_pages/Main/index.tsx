@@ -5,6 +5,7 @@ import PowerButton from 'components/PowerButton'
 import Logo from 'components/Logo'
 import SocialIcons from 'components/SocialIcons'
 import { YinYang } from 'components/AllSvgs'
+import Intro from 'components/Intro'
 
 import * as S from './styles'
 
@@ -59,6 +60,8 @@ const Main = () => {
           </NextLink>
         </S.BottomBar>
       </S.Container>
+
+      {click && <Intro />}
     </S.Wrapper>
   )
 }

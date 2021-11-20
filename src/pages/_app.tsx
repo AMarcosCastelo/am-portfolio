@@ -2,7 +2,7 @@ import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 import Head from 'next/head'
 
-import { LIGHT_THEME, DARK_THEME, GlobalStyles } from 'styles'
+import { LIGHT_THEME, GlobalStyles } from 'styles'
 
 function App({ Component, pageProps }: AppProps) {
   return (
