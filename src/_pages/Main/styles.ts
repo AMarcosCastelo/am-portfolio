@@ -35,12 +35,11 @@ export const Contact = styled.a`
 `
 
 export const Work = styled.a<ClickProp>`
-  color: ${({ theme, click }) =>
-    click ? theme.palette.background.default : theme.palette.text.main};
+  color: ${(props) => props.theme.palette.text.main};
   position: absolute;
   top: 50%;
-  left: calc(1rem + 2vw);
-  transform: translate(-50%, -50%) rotate(-90deg);
+  right: calc(1rem + 2vw);
+  transform: rotate(90deg) translate(-50%, -50%);
   text-decoration: none;
   z-index: 1;
 `
