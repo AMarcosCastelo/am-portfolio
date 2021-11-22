@@ -1,11 +1,232 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<MySkillsPage /> should render the heading 1`] = `
+.c0 {
+  background-color: default:#FCF6F4;
+  default-rgba: 252,246,244;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  border: 2px solid #000;
+  color: #000;
+  background-color: #FCF6F4;
+  padding: 2rem;
+  width: 30vw;
+  height: 60vh;
+  z-index: 3;
+  line-height: 1.5;
+  cursor: pointer;
+  font-family: 'Ubuntu Mono',monospace;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3:hover {
+  color: #FCF6F4;
+  background-color: #000;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem + 1vw);
+}
+
+.c2:hover .c4 > * {
+  fill: #FCF6F4;
+}
+
+.c5 > *:first-child {
+  margin-right: 1rem;
+}
+
+.c7 {
+  color: #000;
+  font-size: calc(0.5rem + 1vw);
+  padding: 0.5rem 0;
+}
+
+.c7 strong {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.c7 ul,
+.c7 p {
+  margin-left: 2rem;
+}
+
+.c2:hover .c6 {
+  color: #FCF6F4;
+}
+
+.c1 > #tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
 <main
-  class=""
+  class="c0"
 >
-  <h1>
-    MySkillsPage
-  </h1>
+  <div
+    class="c1"
+  >
+    <div
+      id="tsparticles"
+    >
+      <canvas
+        class="tsparticles-canvas-el"
+        height="0"
+        style="width: 100%; height: 100%;"
+        width="0"
+      />
+    </div>
+  </div>
+  <div
+    class="c2 c3"
+  >
+    <h2
+      class="c4 c5"
+    >
+      <svg
+        aria-hidden="true"
+        class="prefix__svg-inline--fa prefix__fa-laptop-code prefix__fa-w-20"
+        data-icon="laptop-code"
+        data-prefix="fas"
+        height="40"
+        viewBox="0 0 640 512"
+        width="40"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"
+        />
+      </svg>
+      Frontend Developer
+    </h2>
+    <div
+      class="c6 c7"
+    >
+      Hi, my name is Antonio Marcos, I've been a frontend developer for almost 3 years and a lover of technologies surrounding JavaScript.
+    </div>
+    <div
+      class="c6 c7"
+    >
+      <strong>
+        Main technologies
+      </strong>
+      <br />
+      Html, Css (Sass, Less), Bootstrap / Materialize / Material UI, JavaScript (TDD, BDD, E2E, ES6/7), Typescript, GraphQL, ReactJS, Gatsby, NextJs, Node, MongoDB, Cypress, Webpack, Git etc.
+    </div>
+  </div>
+  <div
+    class="c2 c3"
+  >
+    <h2
+      class="c4 c5"
+    >
+      <svg
+        aria-hidden="true"
+        class="prefix__svg-inline--fa prefix__fa-laptop-code prefix__fa-w-20"
+        data-icon="laptop-code"
+        data-prefix="fas"
+        height="40"
+        viewBox="0 0 640 512"
+        width="40"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"
+        />
+      </svg>
+      Skills
+    </h2>
+    <div
+      class="c6 c7"
+    >
+      <strong>
+        My personal skills are:
+      </strong>
+      <ul>
+        <li>
+          <p>
+            Code Review
+          </p>
+        </li>
+        <li>
+          <p>
+            Logical reasoning
+          </p>
+        </li>
+        <li>
+          <p>
+            Basic UI/UX
+          </p>
+        </li>
+        <li>
+          <p>
+            Teamwork
+          </p>
+        </li>
+        <li>
+          <p>
+            Learn Fast
+          </p>
+        </li>
+        <li>
+          <p>
+            Share knowledge
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="c6 c7"
+    >
+      <strong>
+        TOOLS:
+      </strong>
+      <br />
+      VS Code, Visual Studio, Git, Github, Trello, Slack, Click Up, Notion, etc...
+    </div>
+  </div>
 </main>
 `;

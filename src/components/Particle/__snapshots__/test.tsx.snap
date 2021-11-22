@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Particle /> should render the Particle 1`] = `
+.c0 > #tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    id="tsparticles"
+  >
+    <canvas
+      class="tsparticles-canvas-el"
+      height="0"
+      style="width: 100%; height: 100%;"
+      width="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Particle /> should render the Particle with dark theme 1`] = `
+.c0 > #tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    id="tsparticles"
+  >
+    <canvas
+      class="tsparticles-canvas-el"
+      height="0"
+      style="width: 100%; height: 100%;"
+      width="0"
+    />
+  </div>
+</div>
+`;

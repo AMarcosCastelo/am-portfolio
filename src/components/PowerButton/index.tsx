@@ -6,7 +6,9 @@ import * as S from './styles'
 const PowerButton = () => (
   <S.Power>
     <NextLink href="/">
-      <PowerBtn width={30} height={30} fill="currentColor" />
+      <a>
+        <PowerBtn width={30} height={30} fill="currentColor" />
+      </a>
     </NextLink>
   </S.Power>
 )

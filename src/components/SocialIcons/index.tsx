@@ -58,7 +58,9 @@ const SocialIcons = ({ theme }: { theme: 'dark' | 'light' }) => {
     <S.Icons>
       {NAV_ITEMS.map(({ name, url, icon }) => (
         <div key={name}>
-          <NextLink href={url}>{icon}</NextLink>
+          <NextLink href={url}>
+            <a>{icon}</a>
+          </NextLink>
         </div>
       ))}
 

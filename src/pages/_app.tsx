@@ -2,6 +2,8 @@ import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 import Head from 'next/head'
 
+import PageWrapper from 'components/PageWrapper'
+
 import { LIGHT_THEME, GlobalStyles } from 'styles'
 
 function App({ Component, pageProps }: AppProps) {
@@ -19,7 +21,10 @@ function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <GlobalStyles />
-      <Component {...pageProps} />
+
+      <PageWrapper>
+        <Component {...pageProps} />
+      </PageWrapper>
     </ThemeProvider>
   )
 }
