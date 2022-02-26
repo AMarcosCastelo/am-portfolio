@@ -59,7 +59,7 @@ const Main = () => {
             </S.About>
           </NextLink>
 
-          <NextLink href="/mySkills" passHref>
+          <NextLink href="/myskills" passHref>
             <S.MySkills>
               <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 My Skills
